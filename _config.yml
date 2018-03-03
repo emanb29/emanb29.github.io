@@ -10,7 +10,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lumps of Code"
+title                    : "A Clean, Well-Lighted Place"
 title_separator          : "-"
 name                     : "Ethan Bell"
 description              : "An amazing website."
