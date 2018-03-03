@@ -93,8 +93,8 @@ author:
   name             : "Ethan Bell"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer, Hacker, Burger Connoisseur."
-  location         : "Somewhere"
-  email            :
+  location         : "Portland, Oregon"
+  email            : "eb@ethanbell.me"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
