@@ -1,5 +1,6 @@
 ---
 published: false
+title: Fair Division
 ---
 _This article continues my eclectic collection of recently-learned-topic reviews. Essentially, when I’m in class or work and come across a topic I find particularly difficult, counterintuitive, or just interesting, I’ll write one of these to hopefully ease the learning process for the next poor sucker who needs to learn the topic. Today, I’ll be discussing the Fair Division problem, with a particular emphasis on the subset of problems which involve continuous value functions, and on systems with only a proportional division criterion._
 
@@ -27,4 +28,3 @@ Our final algorithm, one requiring only n-1 cuts, as before, but this time discr
 I you find this topic interesting, you might want to know that in this article, we’ve been concerned with “proportional division” (the PR criterion). That is, we’re only concerned with making sure everyone gets at least their 1/n of the cake. If you want to pursue this topic further on your own, two areas of further research jump out. The first is the formalization or addition of additional criteria to the fair division problem. Envy-free (the EF criterion) is the obvious place to start. Rather than saying “Each person must get at least a subjectively fair portion”, EF guarantees “Every person will see their portion as at least as good as everyone else’s portions”. That’s a bit outside the scope of this article, but it’s certainly interesting. The other area of potential interest for those looking to deep-dive into the topic is applications of fair division to “bad cakes”. For example, splitting labor or rent, known as “envy-free chore division” or “fair division of bads”.
 	
 _This article was primarily based on the talk “Halving your Cake” by Deanna Haunsperger from the Pacific Northwest MAA Chapter Meeting 2018, with some auxiliary research from miscellaneous websites and textbooks._
-
