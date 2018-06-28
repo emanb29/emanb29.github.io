@@ -22,6 +22,8 @@ This would be fine, if there were some guarantee the message wouldn't exceed the
 
 ![Image credit Jonathan Ganz jonganz.com](https://i.imgur.com/2tiQT9l.png)
 
+(This graphic shows filling the buffer with "A" rather than "F", but the concept is the same)
+
 ## The Attacks
 In our research, we came across many instances of buffer overflows in FTP clients and servers, from the esoteric "FTPShell" client to the default client built in to Windows to the default server shipped with Microsoft's IIS server suite. The effects ranged from crashing the application (bad) to arbitrary code execution (really bad). Just to name a few:
 
