@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 title: The Lions-Eating Problem
+hidden: true
 ---
 _This article continues my eclectic collection of recently-learned-topic reviews. Essentially, when I’m in class or work and come across a topic I find particularly difficult, counterintuitive, or just interesting, I’ll write one of these to hopefully ease the learning process for the next poor sucker who needs to learn the topic. Today, I’ll be discussing the Lions-Eating Problem, otherwise known as the lions and lambs game._
 
