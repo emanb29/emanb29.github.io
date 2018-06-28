@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 title: Fair Division
+hidden: true
 ---
 _This article continues my eclectic collection of recently-learned-topic reviews. Essentially, when I’m in class or work and come across a topic I find particularly difficult, counterintuitive, or just interesting, I’ll write one of these to hopefully ease the learning process for the next poor sucker who needs to learn the topic. Today, I’ll be discussing the Fair Division problem, with a particular emphasis on the subset of problems which involve continuous value functions, and on systems with only a proportional division criterion._
 
