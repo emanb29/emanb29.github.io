@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'Press F to Pay Respects: Your FTP Client is Dead'
-hidden: false
+hidden: true
 ---
 ## A Brief History of FTP
 
