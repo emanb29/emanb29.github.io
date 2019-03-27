@@ -1,8 +1,10 @@
 ---
 published: true
 title: 'Press F to Pay Respects: Your FTP Client is Dead'
-hidden: true
+hidden: false
 ---
+*This article was written in collaboration with students at Pacific University during the CS435 (Computer Security) course. Thanks to [Shereen Khoja](http://zeus.cs.pacificu.edu/shereen) for supervising*
+
 ## A Brief History of FTP
 
 The uncreatively named FTP -- File Transfer Protocol -- is a protocol for file transfer dating back to 16 April 1971 (as [RFC 114](https://tools.ietf.org/html/rfc114)). Since then, it's had some updates, [RFC 765](https://tools.ietf.org/html/rfc765) and [959](https://tools.ietf.org/html/rfc959) moving the protocol on to TCP/IP, [RFC 1579](https://tools.ietf.org/html/rfc1579) and [2428](https://tools.ietf.org/html/rfc2428) adding some functionality, and [RFC 2228](https://tools.ietf.org/html/rfc2228) adding security extensions. Despite these updates, the core of FTP is much the same as it was in 1971, and many FTP clients written even today adhere closely to the minimum functionality required by the standard, in order to guarantee compatibility.
@@ -12,7 +14,7 @@ In general, an FTP connection flow looks something like this:
 
 ## The Vulnerability
 
-The security-astute minds out there may have already seen a problem in this protocol: **Nowhere in this standard flow is a maximum message size specified.** This introduces the possibility of a buffer overflow, since the default solution for many developers will go as follows:
+The security-astute minds out there may have already seen a problem in this protocol: **Nowhere in this standard flow is a maximum message size specified.** This introduces the possibility of a buffer overflow, since the naïve solution for many developers will go as follows:
 
 - Have a local character array with some estimated maximum command length, say, 400 characters
 - Upon receiving a message, copy it to the above array
