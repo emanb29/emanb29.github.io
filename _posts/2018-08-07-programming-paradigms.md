@@ -1,6 +1,7 @@
 ---
 published: true
 hidden: false
+title: 'Programming Paradigms, Compared'
 ---
 
 The frontier of computer science seems to change from day to day. This is more evident in some coding ecosystems than others (Javascript, for example, being notorious for replacing its core tools with incredible frequency). Paradigms are no exception to this. The concept of what defines a “functional language” or a “declarative syntax” change frequently, and many such definitions, often in conflict with one another, may be easily found all over the Internet and other resources. However, the general idea of what a each paradigm means has some universality, it’s just the details necessitated by a formal definition that vary.
