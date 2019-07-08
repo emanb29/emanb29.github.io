@@ -134,6 +134,3 @@ The astute reader may notice that I promised two mathematical explanations for t
 
 
 _This article is based on an untitled functional programming talk given by [Greg Stromire](https://github.com/gstro), who in turn based the relevant sections on [“Introduction to Algebraic Data Types in Scala”](https://tpolecat.github.io/presentations/algebraic_types.html) by Rob Norris_
-
-
-<!-- Docs to Markdown version 1.0β17 -->
