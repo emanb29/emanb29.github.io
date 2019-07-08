@@ -113,7 +113,7 @@ author:
   email            : "eb@ethanbell.me"
   links:
     - label: "GitHub"
-      icon: "fas fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/emanb29"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -122,7 +122,7 @@ author:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/emanb29"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ethan-bell-10840765/"
     - label: "Reddit"
       icon: "fab fa-fw fa-reddit"
@@ -135,7 +135,7 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fas fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/emanb29"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -144,7 +144,7 @@ footer:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/emanb29"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ethan-bell-10840765/"
 
 
