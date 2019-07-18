@@ -22,6 +22,6 @@ According to [a very good article by MIT](https://web.archive.org/web/2018092218
 *   _Creators_ instantiate the ADT, such as the literals `0` (for `int`) or `'c'` (for `char`). 
 *   _Producers_ generate new ADT instances from existing ones (eg, `int`’s `+`, which takes two `int`s and produces a third).
 *   _Observers_ take instances of the ADT and return a different type (eg, `double`’s `floor` observes a `double` but returns an `int`).
-*   _Mutators _change ADT instances without altering their identity. Atomic ADTs do not have mutators, but data structures (covered in the next article) do. For example, an array’s dereference-and-assign operation (eg, `arr[3] = 5`) changes an element of the array without replacing the array itself, so we say it _mutates_ the array.
+*   _Mutators_ change ADT instances without altering their identity. Atomic ADTs do not have mutators, but data structures (covered in the next article) do. For example, an array’s dereference-and-assign operation (eg, `arr[3] = 5`) changes an element of the array without replacing the array itself, so we say it _mutates_ the array.
 
 Some languages have _type qualifiers_ which modify a type’s ADT, such as `unsigned`. An `unsigned int` has a domain of `0` to `UINT_MAX`, as opposed to an `int`’s domain of `INT_MIN` to `INT_MAX`. The same API applies, but the implementation of the operations might be different, as might the domain.
